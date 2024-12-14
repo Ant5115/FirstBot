@@ -4,6 +4,7 @@ import tutorial.Bot;
 
 public class Test {
     public static void main(String[] args) throws Exception{
+        //регистрация бота
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         botsApi.registerBot(new Bot());
     }
